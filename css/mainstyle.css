@@ -1,7 +1,7 @@
 body{
-	background-color: #FFFFDA;
+	background-color: white;
 	font-family: Helvetica;
-	color:#7D3E00;
+	color:white;
 	padding-top: 3%;
 
 	max-width: 1920px
@@ -12,15 +12,15 @@ body{
 	padding-left: 4%;
 
 	/*Text Attributes*/
-	color: #FFFFC3;
+	color: white;
 	text-align: left;
 	font-size: 200%;
 	/*font-style: italic;*/
 	
 
 	width: 100%;
-	height: 20%;
-	background-color: #4AD2FF;
+	height: 30%;
+	background-color: #003399;
 	border-top: 3px outset ;
 
 	padding-top: 2%;
@@ -33,7 +33,7 @@ body{
 	display: inline-block;
 	height: 80%;
 }
-#bannertext{
+.bannertext{
 	height: 50%;
 	display: inline-block;
 }
@@ -56,8 +56,8 @@ body{
 
 .menu td{
 	width: 10%;
-	border: 2px solid #FF8C1A;
-	background-color: #FFDA90;
+	border: 2px solid black;
+	background-color: grey;
 
 	font-size:  200%;
 	height: 100%;
@@ -66,18 +66,32 @@ tr{
 	width: 100%;
 }
 .menu td:hover{
-	background-color: orange;
-	color: black
+	background-color: #003399;
+	color: white;
 }
-
+.menu a{
+    display:block;
+    text-decoration:none;
+}
+.menu a:visited{
+	text-decoration: none;
+	color: white;
+}
+.menu a:link{
+	text-decoration: none;
+	color: white;
+}
 .content{
+
 	display: block;
 	width: 100%;
 
 	padding-top: 1%;
 	padding-left: 2%;
 	padding-right: 2%;
-	border-radius: 10px;
+	border-radius: 25px;
+
+	background-color: #003399;
 
 }
 
