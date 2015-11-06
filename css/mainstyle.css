@@ -96,8 +96,8 @@ tr{
 
 }
 .content>p{
+	text-align: justify;
 	font-size: 200%;
-
 }
 #slugwars{
 	width: 100%;
@@ -106,4 +106,6 @@ tr{
 #slugwars>h1{
 	font-size: 400%;
 }
+
+
 
